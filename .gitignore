@@ -1,0 +1,25 @@
+# ---- Data and analysis outputs: never tracked by git ----
+# Keep raw data somewhere backed up (shared drive, OneDrive, etc.) and
+# describe where to get it in README.md. Outputs are re-created by running
+# the scripts, and can contain data (e.g., saved model objects).
+data/
+output/
+
+# ---- Large or binary files that don't belong in git ----
+# (in case one ends up outside data/ or output/)
+*.rds
+*.RData
+*.rda
+*.zip
+*.tar.gz
+*.nc
+*.h5
+
+# ---- R / RStudio ----
+.Rhistory
+.Rproj.user/
+
+# ---- Operating system junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
